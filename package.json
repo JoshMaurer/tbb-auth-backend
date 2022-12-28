@@ -1,13 +1,16 @@
 {
-  "name": "auth-app",
+  "name": "tbb-auth-backend",
   "version": "1.0.0",
+  "engines": {
+    "node": "16.x"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "author": "",
+  "author": "Josh Maurer",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
