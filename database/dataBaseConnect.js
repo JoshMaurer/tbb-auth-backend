@@ -4,7 +4,7 @@ require('dotenv').config()
 
 async function dataBaseConnect() {
     mongoose
-        .connect(process.env.MONGODB_URI)
+        .connect(process.env.DB_URL)
         .then(() => {
             console.log('Holy crap I finally got this to connect to MongoDB Atlas!');
         })
